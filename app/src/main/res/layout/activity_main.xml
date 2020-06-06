@@ -25,4 +25,16 @@
             android:textSize="36sp" />
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/reason"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
